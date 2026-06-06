@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panadería La Sucursal | Cali Valle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="phone-menu">
+    <section class="hero" id="inicio">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="brand">
+          <div class="logo">🥐</div>
+          <p class="small-title">Cali, Valle del Cauca</p>
+          <h1>Panadería<br>La Sucursal</h1>
+          <p class="tagline">Pan fresco, pandebonos y antojitos vallunos</p>
+        </div>
+
+        <nav class="main-buttons" aria-label="Menú principal">
+          <button class="menu-btn" data-target="catalogo">
+            <span>🥖</span> Catálogo de productos
+          </button>
+          <button class="menu-btn" data-target="desayunos">
+            <span>☕</span> Desayunos
+          </button>
+          <button class="menu-btn" data-target="especiales">
+            <span>🧀</span> Antojitos vallunos
+          </button>
+          <a class="menu-btn" id="whatsappBtn" href="#" target="_blank" rel="noopener">
+            <span>💬</span> Pedidos por WhatsApp
+          </a>
+          <a class="menu-btn" href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <span>f</span> Facebook
+          </a>
+          <a class="menu-btn" href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <span>◎</span> Instagram
+          </a>
+          <a class="menu-btn" href="https://www.tiktok.com/" target="_blank" rel="noopener">
+            <span>♪</span> TikTok
+          </a>
+          <button class="menu-btn" data-target="domicilios">
+            <span>🏍️</span> Domicilios
+          </button>
+        </nav>
+
+        <p class="footer-note">Abierto todos los días · 6:00 a.m. - 8:00 p.m.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="catalogo">
+      <div class="panel-header">
+        <button class="back-btn">←</button>
+        <div>
+          <p>Menú digital</p>
+          <h2>Catálogo</h2>
+        </div>
+      </div>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar producto..." />
+      </div>
+      <div class="chips">
+        <button class="chip active" data-category="todos">Todos</button>
+        <button class="chip" data-category="panaderia">Panadería</button>
+        <button class="chip" data-category="bebidas">Bebidas</button>
+        <button class="chip" data-category="postres">Postres</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="panel" id="desayunos">
+      <div class="panel-header">
+        <button class="back-btn">←</button>
+        <div>
+          <p>Recién preparados</p>
+          <h2>Desayunos</h2>
+        </div>
+      </div>
+      <div class="list-card">
+        <h3>Desayuno caleño</h3>
+        <p>Huevos al gusto, pan artesanal, café con leche y jugo natural.</p>
+        <strong>$14.000</strong>
+      </div>
+      <div class="list-card">
+        <h3>Combo pandebono</h3>
+        <p>2 pandebonos calientes + bebida caliente.</p>
+        <strong>$8.500</strong>
+      </div>
+      <div class="list-card">
+        <h3>Arepa valluna</h3>
+        <p>Arepa con queso, mantequilla y chocolate caliente.</p>
+        <strong>$10.000</strong>
+      </div>
+    </section>
+
+    <section class="panel" id="especiales">
+      <div class="panel-header">
+        <button class="back-btn">←</button>
+        <div>
+          <p>Sabor del Valle</p>
+          <h2>Antojitos vallunos</h2>
+        </div>
+      </div>
+      <div class="list-card">
+        <h3>Pandebono tradicional</h3>
+        <p>Suave, calientico y con queso costeño.</p>
+      </div>
+      <div class="list-card">
+        <h3>Pan de yuca</h3>
+        <p>Ideal para acompañar café, avena o champús.</p>
+      </div>
+      <div class="list-card">
+        <h3>Aborrajado dulce</h3>
+        <p>Plátano maduro, queso y toque dulce.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="domicilios">
+      <div class="panel-header">
+        <button class="back-btn">←</button>
+        <div>
+          <p>Servicio en Cali</p>
+          <h2>Domicilios</h2>
+        </div>
+      </div>
+      <div class="delivery-card">
+        <h3>📍 Cobertura</h3>
+        <p>Realizamos domicilios en Cali, Valle del Cauca. Consulta disponibilidad por WhatsApp según tu barrio.</p>
+      </div>
+      <div class="delivery-card">
+        <h3>⏰ Horario</h3>
+        <p>Lunes a domingo de 6:00 a.m. a 8:00 p.m.</p>
+      </div>
+      <a class="order-now" id="whatsappBtn2" href="#" target="_blank">Pedir ahora por WhatsApp</a>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
