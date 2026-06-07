@@ -8,13 +8,13 @@ if (whatsappBtn) whatsappBtn.href = whatsappUrl;
 if (whatsappBtn2) whatsappBtn2.href = whatsappUrl;
 
 const products = [
-  {
-    name: 'Pandebono tradicional',
-    description: 'Calientico, suave y con queso. Sabor típico valluno.',
-    price: '$2.500',
-    category: 'panaderia',
-    image: 'https://images.unsplash.com/photo-1585478259715-4b456ba1bd3a?auto=format&fit=crop&w=600&q=80'
-  },
+{
+  name: 'Pandebono tradicional',
+  description: 'Calientico, suave y con queso. Sabor típico valluno.',
+  price: '$2.500',
+  category: 'panaderia',
+  image: 'https://cdn.pixabay.com/photo/2017/06/23/23/57/bread-2436370_1280.jpg'
+},
   {
     name: 'Pan de yuca',
     description: 'Perfecto para acompañar café o chocolate.',
